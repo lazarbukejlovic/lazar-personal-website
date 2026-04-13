@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import { ExternalLink, Github } from "lucide-react";
+import { ExternalLink, Code2 } from "lucide-react";
 
 interface Project {
   title: string;

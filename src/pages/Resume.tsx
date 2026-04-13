@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import { ArrowLeft, Download, Mail, Linkedin, Github } from "lucide-react";
+import { ArrowLeft, Download, Mail, Link2, Code2 } from "lucide-react";
 import ThemeToggle from "@/components/ThemeToggle";
 
 const EXPERIENCE = [
