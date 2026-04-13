@@ -82,7 +82,7 @@ export default function SelectedWork() {
                   rel="noopener noreferrer"
                   className="inline-flex items-center gap-1.5 rounded-md border border-border px-3 py-1.5 text-sm text-foreground transition-colors hover:bg-secondary"
                 >
-                  <Github size={14} />
+                  <Code2 size={14} />
                   GitHub
                 </a>
               </div>

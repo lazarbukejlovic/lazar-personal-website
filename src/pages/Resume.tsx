@@ -102,7 +102,7 @@ export default function Resume() {
               rel="noopener noreferrer"
               className="inline-flex items-center gap-1 hover:text-foreground"
             >
-              <Linkedin size={13} /> linkedin.com/in/lazar-bukejlovic
+              <Link2 size={13} /> linkedin.com/in/lazar-bukejlovic
             </a>
             <a
               href="https://github.com/lazarbukejlovic-dotcom"
@@ -110,7 +110,7 @@ export default function Resume() {
               rel="noopener noreferrer"
               className="inline-flex items-center gap-1 hover:text-foreground"
             >
-              <Github size={13} /> github.com/lazarbukejlovic-dotcom
+              <Code2 size={13} /> github.com/lazarbukejlovic-dotcom
             </a>
           </div>
         </header>
