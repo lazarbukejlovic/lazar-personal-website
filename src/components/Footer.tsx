@@ -5,7 +5,7 @@ export default function Footer() {
         <p>© {new Date().getFullYear()} Lazar Bukejlovic</p>
         <div className="flex gap-6">
           <a
-            href="https://github.com/lazarbukejlovic-dotcom"
+            href="https://github.com/lazarbukejlovic"
             target="_blank"
             rel="noopener noreferrer"
             className="transition-colors hover:text-foreground"
@@ -13,7 +13,7 @@ export default function Footer() {
             GitHub
           </a>
           <a
-            href="https://linkedin.com/in/lazar-bukejlovic"
+            href="https://www.linkedin.com/in/lazar-bukejlovic"
             target="_blank"
             rel="noopener noreferrer"
             className="transition-colors hover:text-foreground"

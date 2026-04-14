@@ -35,7 +35,7 @@ export default function HeroSection() {
           >
             <div className="h-40 w-40 overflow-hidden rounded-2xl border-2 border-border shadow-sm md:h-52 md:w-52">
               <img
-                src="/lazar-profile.jpg"
+                src="https://obibedjddoyfsbnndrhf.supabase.co/storage/v1/object/public/assets/personal-picture.jpg"
                 alt="Lazar Bukejlovic"
                 className="h-full w-full object-cover"
               />
