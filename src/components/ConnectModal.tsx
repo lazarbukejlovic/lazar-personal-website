@@ -83,6 +83,22 @@ export default function ConnectModal({ open, onOpenChange }: ConnectModalProps) 
       });
 
       if (error) throw error;
+
+      // Send confirmation email (best-effort — don't block UX on failure)
+      try {
+        await supabase.functions.invoke("send-booking-confirmation", {
+          body: {
+            name: name.trim(),
+            email: email.trim(),
+            scheduled_date: format(selectedDate, "EEEE, MMMM d, yyyy"),
+            scheduled_time: selectedTime,
+            timezone: timezone.replace("_", " "),
+          },
+        });
+      } catch (emailErr) {
+        console.warn("Booking confirmation email could not be sent:", emailErr);
+      }
+
       setStep("confirmed");
     } catch (err) {
       console.error("Failed to submit scheduling request:", err);
