@@ -34,7 +34,7 @@ const PROJECTS: Project[] = [
     title: "RoomPulse",
     description:
       "A workflow execution platform focused on task visibility, progress tracking, structured operations, and responsive product UX.",
-    liveUrl: "https://https://roompulse.lovable.app/",
+    liveUrl: "https://roompulse.lovable.app",
     githubUrl: "https://github.com/lazarbukejlovic/roompulse",
   },
 ];
