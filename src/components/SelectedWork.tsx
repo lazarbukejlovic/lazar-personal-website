@@ -13,29 +13,29 @@ const PROJECTS: Project[] = [
     title: "EchoRoom",
     description:
       "A social communication app where posts become conversations through feed interaction, profiles, direct messaging, discovery, and live discussion rooms.",
-    liveUrl: "#",
-    githubUrl: "#",
+    liveUrl: "https://echoroomlive.lovable.app",
+    githubUrl: "https://github.com/lazarbukejlovic/echoroom",
   },
   {
     title: "Foundry Studios",
     description:
       "A booking and payments product centered on service flows, scheduling logic, and polished user-facing structure.",
-    liveUrl: "#",
-    githubUrl: "#",
+    liveUrl: "https://foundry-studios.lovable.app",
+    githubUrl: "https://github.com/lazarbukejlovic/foundry-studios",
   },
   {
     title: "ClientFlow",
     description:
       "A business operations platform for client management, project workflows, invoicing, and dashboard visibility.",
-    liveUrl: "#",
-    githubUrl: "#",
+    liveUrl: "https://useclientflow.lovable.app",
+    githubUrl: "https://github.com/lazarbukejlovic/clientflow",
   },
   {
     title: "RoomPulse",
     description:
       "A workflow execution platform focused on task visibility, progress tracking, structured operations, and responsive product UX.",
-    liveUrl: "#",
-    githubUrl: "#",
+    liveUrl: "https://pulse-board-flow.lovable.app",
+    githubUrl: "https://github.com/lazarbukejlovic/roompulse",
   },
 ];
 
