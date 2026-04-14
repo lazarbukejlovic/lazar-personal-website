@@ -34,7 +34,7 @@ const PROJECTS: Project[] = [
     title: "RoomPulse",
     description:
       "A workflow execution platform focused on task visibility, progress tracking, structured operations, and responsive product UX.",
-    liveUrl: "https://pulse-board-flow.lovable.app",
+    liveUrl: "https://https://roompulse.lovable.app/",
     githubUrl: "https://github.com/lazarbukejlovic/roompulse",
   },
 ];
@@ -43,9 +43,7 @@ export default function SelectedWork() {
   return (
     <section id="work" className="scroll-mt-20 py-20">
       <div className="section-container">
-        <h2 className="font-heading text-sm font-medium tracking-widest uppercase text-primary">
-          Selected Work
-        </h2>
+        <h2 className="font-heading text-sm font-medium tracking-widest uppercase text-primary">Selected Work</h2>
 
         <div className="mt-10 space-y-6">
           {PROJECTS.map((project, i) => (
@@ -58,12 +56,8 @@ export default function SelectedWork() {
               className="group flex flex-col gap-4 rounded-lg border border-border bg-card p-6 transition-colors hover:border-primary/30 sm:flex-row sm:items-start sm:justify-between"
             >
               <div className="max-w-lg">
-                <h3 className="font-heading text-lg font-semibold text-foreground">
-                  {project.title}
-                </h3>
-                <p className="mt-1.5 text-sm leading-relaxed text-muted-foreground">
-                  {project.description}
-                </p>
+                <h3 className="font-heading text-lg font-semibold text-foreground">{project.title}</h3>
+                <p className="mt-1.5 text-sm leading-relaxed text-muted-foreground">{project.description}</p>
               </div>
 
               <div className="flex shrink-0 gap-2">
