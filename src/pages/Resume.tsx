@@ -2,6 +2,9 @@ import { Link } from "react-router-dom";
 import { ArrowLeft, Download, Mail, Link2, Code2 } from "lucide-react";
 import ThemeToggle from "@/components/ThemeToggle";
 
+const RESUME_PDF_URL =
+  "https://obibedjddoyfsbnndrhf.supabase.co/storage/v1/object/public/assets/Resume.pdf";
+
 const EXPERIENCE = [
   {
     company: "TokenFlow",
@@ -68,7 +71,7 @@ export default function Resume() {
           <div className="flex items-center gap-2">
             <ThemeToggle />
             <a
-              href="/Lazar_Bukejlovic_CV.pdf"
+              href={RESUME_PDF_URL}
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center gap-1.5 rounded-md bg-primary px-3 py-1.5 text-sm font-medium text-primary-foreground transition-opacity hover:opacity-90"
@@ -97,7 +100,7 @@ export default function Resume() {
               <Mail size={13} /> lazarbukejlovic@icloud.com
             </a>
             <a
-              href="https://linkedin.com/in/lazar-bukejlovic"
+              href="https://www.linkedin.com/in/lazar-bukejlovic"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center gap-1 hover:text-foreground"
@@ -105,12 +108,12 @@ export default function Resume() {
               <Link2 size={13} /> linkedin.com/in/lazar-bukejlovic
             </a>
             <a
-              href="https://github.com/lazarbukejlovic-dotcom"
+              href="https://github.com/lazarbukejlovic"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center gap-1 hover:text-foreground"
             >
-              <Code2 size={13} /> github.com/lazarbukejlovic-dotcom
+              <Code2 size={13} /> github.com/lazarbukejlovic
             </a>
           </div>
         </header>
