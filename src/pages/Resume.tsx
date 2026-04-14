@@ -2,8 +2,7 @@ import { Link } from "react-router-dom";
 import { ArrowLeft, Download, Mail, Link2, Code2 } from "lucide-react";
 import ThemeToggle from "@/components/ThemeToggle";
 
-const RESUME_PDF_URL =
-  "https://obibedjddoyfsbnndrhf.supabase.co/storage/v1/object/public/assets/Resume.pdf";
+const RESUME_PDF_URL = "https://obibedjddoyfsbnndrhf.supabase.co/storage/v1/object/public/assets/Resume.pdf";
 
 const EXPERIENCE = [
   {
@@ -62,10 +61,7 @@ export default function Resume() {
       {/* Top bar (no-print) */}
       <div className="no-print fixed inset-x-0 top-0 z-50 border-b border-border bg-background/80 backdrop-blur-md">
         <div className="mx-auto flex h-14 max-w-3xl items-center justify-between px-6">
-          <Link
-            to="/"
-            className="inline-flex items-center gap-1.5 text-sm text-muted-foreground hover:text-foreground"
-          >
+          <Link to="/" className="inline-flex items-center gap-1.5 text-sm text-muted-foreground hover:text-foreground">
             <ArrowLeft size={16} /> Back
           </Link>
           <div className="flex items-center gap-2">
@@ -86,12 +82,8 @@ export default function Resume() {
       <article className="print-page mx-auto max-w-3xl px-6 pt-24 pb-20">
         {/* Header */}
         <header className="border-b border-border pb-6">
-          <h1 className="font-heading text-3xl font-bold tracking-tight text-foreground">
-            Lazar Bukejlovic
-          </h1>
-          <p className="mt-1 text-lg font-medium text-primary">
-            Full-Stack Engineer
-          </p>
+          <h1 className="font-heading text-3xl font-bold tracking-tight text-foreground">Lazar Bukejlovic</h1>
+          <p className="mt-1 text-lg font-medium text-primary">Full-Stack Engineer</p>
           <div className="mt-3 flex flex-wrap items-center gap-x-5 gap-y-1 text-sm text-muted-foreground">
             <a
               href="mailto:lazarbukejlovic@icloud.com"
@@ -120,43 +112,29 @@ export default function Resume() {
 
         {/* About */}
         <section className="mt-8">
-          <h2 className="font-heading text-xs font-semibold tracking-widest uppercase text-primary">
-            About
-          </h2>
+          <h2 className="font-heading text-xs font-semibold tracking-widest uppercase text-primary">About</h2>
           <p className="mt-3 text-sm leading-relaxed text-muted-foreground">
-            Full-Stack Engineer focused on building modern product applications
-            with strong frontend execution and practical backend architecture.
-            My experience includes product development at TokenFlow and direct
-            delivery for private clients in finance-oriented and digital
-            asset-related environments. I work best in ownership-driven
-            environments where clean implementation, usability, communication,
-            and full application flow all matter.
+            Full-Stack Engineer focused on building modern product applications with strong frontend execution and
+            strong backend architecture. My experience includes product development at TokenFlow and direct delivery for
+            private clients in finance-oriented and digital asset-related environments. I work best in ownership-driven
+            environments where clean implementation, usability, communication, and full application flow all matter.
           </p>
         </section>
 
         {/* Experience */}
         <section className="mt-8">
-          <h2 className="font-heading text-xs font-semibold tracking-widest uppercase text-primary">
-            Experience
-          </h2>
+          <h2 className="font-heading text-xs font-semibold tracking-widest uppercase text-primary">Experience</h2>
           <div className="mt-4 space-y-6">
             {EXPERIENCE.map((entry) => (
               <div key={entry.company}>
                 <div className="flex flex-wrap items-baseline justify-between gap-x-4">
-                  <h3 className="font-heading text-base font-semibold text-foreground">
-                    {entry.company}
-                  </h3>
-                  <span className="text-xs text-muted-foreground">
-                    {entry.period}
-                  </span>
+                  <h3 className="font-heading text-base font-semibold text-foreground">{entry.company}</h3>
+                  <span className="text-xs text-muted-foreground">{entry.period}</span>
                 </div>
                 <p className="text-sm font-medium text-primary">{entry.title}</p>
                 <ul className="mt-2 space-y-1">
                   {entry.points.map((point, j) => (
-                    <li
-                      key={j}
-                      className="text-sm leading-relaxed text-muted-foreground"
-                    >
+                    <li key={j} className="text-sm leading-relaxed text-muted-foreground">
                       — {point}
                     </li>
                   ))}
@@ -168,14 +146,11 @@ export default function Resume() {
 
         {/* Selected Work */}
         <section className="mt-8">
-          <h2 className="font-heading text-xs font-semibold tracking-widest uppercase text-primary">
-            Selected Work
-          </h2>
+          <h2 className="font-heading text-xs font-semibold tracking-widest uppercase text-primary">Selected Work</h2>
           <ul className="mt-3 space-y-2">
             {PROJECTS.map((p) => (
               <li key={p.name} className="text-sm text-muted-foreground">
-                <span className="font-medium text-foreground">{p.name}</span> —{" "}
-                {p.desc}
+                <span className="font-medium text-foreground">{p.name}</span> — {p.desc}
               </li>
             ))}
           </ul>
@@ -186,9 +161,7 @@ export default function Resume() {
           <h2 className="font-heading text-xs font-semibold tracking-widest uppercase text-primary">
             Technical Skills
           </h2>
-          <p className="mt-3 text-sm leading-relaxed text-muted-foreground">
-            {SKILLS}
-          </p>
+          <p className="mt-3 text-sm leading-relaxed text-muted-foreground">{SKILLS}</p>
         </section>
       </article>
     </div>
