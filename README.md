@@ -2,7 +2,7 @@
 
 Premium personal engineering website built to present my work, experience, resume, and contact flow in a more serious and product-oriented way than a typical portfolio template.
 
-**Live Demo:** [lazar-builds-it.lovable.app](https://lazar-personalwebsite.lovable.app)
+**Live Demo:** [lazar-personalwebsite.lovable.app](https://lazar-personalwebsite.lovable.app)
 
 ## Overview
 
