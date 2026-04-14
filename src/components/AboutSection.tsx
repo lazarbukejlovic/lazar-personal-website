@@ -11,24 +11,19 @@ export default function AboutSection() {
           transition={{ duration: 0.5 }}
           className="max-w-2xl"
         >
-          <h2 className="font-heading text-sm font-medium tracking-widest uppercase text-primary">
-            About
-          </h2>
+          <h2 className="font-heading text-sm font-medium tracking-widest uppercase text-primary">About</h2>
           <div className="mt-6 space-y-4 text-base leading-relaxed text-muted-foreground">
             <p>
-              Full-Stack Engineer focused on building modern product
-              applications with strong frontend execution and practical backend
-              architecture.
+              Full-Stack Engineer focused on building modern product applications with strong frontend execution and
+              strong backend architecture.
             </p>
             <p>
-              My experience includes product development at TokenFlow and direct
-              delivery for private clients in finance-oriented and digital
-              asset-related environments.
+              My experience includes product development at TokenFlow and direct delivery for private clients in
+              finance-oriented and digital asset-related environments.
             </p>
             <p>
-              I work best in ownership-driven environments where clean
-              implementation, usability, communication, and full application
-              flow all matter.
+              I work best in ownership-driven environments where clean implementation, usability, communication, and
+              full application flow all matter.
             </p>
           </div>
         </motion.div>
