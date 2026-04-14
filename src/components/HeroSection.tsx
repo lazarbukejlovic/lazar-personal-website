@@ -14,15 +14,12 @@ export default function HeroSection() {
             transition={{ duration: 0.6 }}
             className="max-w-xl"
           >
-            <p className="mb-3 text-sm font-medium tracking-widest uppercase text-primary">
-              Full-Stack Engineer
-            </p>
+            <p className="mb-3 text-sm font-medium tracking-widest uppercase text-primary">Full-Stack Engineer</p>
             <h1 className="font-heading text-4xl font-bold tracking-tight text-foreground sm:text-5xl lg:text-6xl">
               Lazar Bukejlovic
             </h1>
             <p className="mt-6 text-lg leading-relaxed text-muted-foreground">
-              Building modern product applications with strong frontend
-              execution and practical backend architecture.
+              Building modern product applications with strong frontend execution and strong backend architecture.
             </p>
           </motion.div>
 
