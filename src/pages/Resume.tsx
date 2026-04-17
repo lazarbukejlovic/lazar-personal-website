@@ -35,6 +35,10 @@ const PROJECTS = [
     desc: "A premium engineering profile site with integrated resume view and structured contact / scheduling flow.",
   },
   {
+    name: "ForgeDesk",
+    desc: "A premium full-stack ecommerce product for workspace goods with Stripe checkout, account flows, saved setups, order management, and a role-protected admin dashboard.",
+  },
+  {
     name: "EchoRoom",
     desc: "A social communication app where posts become conversations through feed interaction, profiles, direct messaging, discovery, and live discussion rooms.",
   },
